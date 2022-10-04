@@ -4,6 +4,10 @@ public class Fruta {
     private int casca;
     private int caroco;
 
+    public Fruta() {
+
+    }
+
     public Fruta(int casca, int caroco) {
         this.casca = casca;
         this.caroco = caroco;
@@ -21,6 +25,14 @@ public class Fruta {
 
     public int getCaroco() {
         return caroco;
+    }
+
+    public void setCasca(int casca) {
+        this.casca = casca;
+    }
+
+    public void setCaroco(int caroco) {
+        this.caroco = caroco;
     }
 
 }

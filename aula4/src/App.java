@@ -14,6 +14,7 @@ public class App {
 
         Produto p1 = new Produto();
         Produto p2 = new Produto();
+        Produto p3 = new Produto("feijão", 10.0, 10);
 
         p1.setDescricao("Maçã");
         p1.setValor(4.30);
