@@ -6,15 +6,15 @@ public class Vendedor extends Funcionario {
 
     public Vendedor(String nome, String rg, double salario) {
         super(nome, rg, salario);
-        this.vendas = 0;
+        this.vendas = 0.0;
     }
 
     public void informaVendas(double valor) {
-        vendas += valor;
+        this.vendas += valor;
     }
 
     public double calculaSalario() {
-        return salario + vendas * 0.05;
+        return this.salario + this.vendas * .05;
     }
 
     public void hollerith() {

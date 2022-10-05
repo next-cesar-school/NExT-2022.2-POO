@@ -1,6 +1,7 @@
 package exercicio1;
 
 public class Funcionario {
+
     protected String nome, rg;
     protected double salario;
 

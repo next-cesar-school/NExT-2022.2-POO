@@ -10,11 +10,11 @@ public class Administrador extends Funcionario {
     }
 
     public void informaHoras(double valor) {
-        horas += valor;
+        this.horas += valor;
     }
 
     public double calculaSalario() {
-        return salario + horas * (salario / 100);
+        return this.salario + this.horas * (this.salario / 100);
     }
 
     public void hollerith() {

@@ -17,7 +17,7 @@ public class Funcionario {
     }
 
     public void bonificar() {
-        this.salario *= .1;
+        this.salario *= 1.1;
     }
 
     public String getNome() {

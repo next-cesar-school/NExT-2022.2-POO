@@ -19,7 +19,7 @@ public class Gerente extends Funcionario {
     }
 
     public void bonificarGerente() {
-        this.salario *= .05;
+        this.salario *= 1.05;
         this.bonificar();
     }
 
