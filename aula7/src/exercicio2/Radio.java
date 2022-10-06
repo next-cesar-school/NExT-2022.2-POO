@@ -11,15 +11,15 @@ public class Radio extends Eletronico {
     private int volume;
 
     @Override
-    public void desligar() {
-        super.desligar();
-        this.volume = 0;
-    }
-
-    @Override
     public void ligar() {
         super.ligar();
         this.sintonia = 88.1;
         this.volume = 10;
+    }
+
+    @Override
+    public void desligar() {
+        super.desligar();
+        this.volume = 0;
     }
 }
