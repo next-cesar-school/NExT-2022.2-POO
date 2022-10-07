@@ -19,7 +19,7 @@ public abstract class Veiculo {
     }
 
     public void abastecer(int combustivel) {
-        this.combustivelNoTanque = combustivel;
+        this.combustivelNoTanque += combustivel;
     }
 
     public abstract boolean viajar(int distancia);

@@ -18,7 +18,8 @@ public class Retangulo extends Quadrilatero {
 
     @Override
     public float calcularPerimetro() {
-
-        return 0;
+        float perimetro = (2 * this.lado) + (2 * this.altura);
+        return perimetro;
     }
+
 }

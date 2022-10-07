@@ -4,6 +4,8 @@ import exercicio2.Multiplicacao;
 import exercicio2.OperacaoMatematica;
 import exercicio2.Soma;
 import exercicio2.Subtracao;
+import exercicio3.Carro;
+import exercicio3.Moto;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -21,6 +23,20 @@ public class App {
         imprimeCalculo(sub, 2, 5);
         imprimeCalculo(mult, 2, 5);
         imprimeCalculo(div, 2, 5);
+
+        Moto shineray = new Moto("123ABCD", 2, 0, false, 50, 100);
+
+        System.out.println(shineray.toString());
+
+        System.out.println(shineray.equals(shineray));
+
+        Carro onix = new Carro("321DCBA", 30, 90000, true, 150, 150);
+
+        System.out.println(onix.toString());
+
+        onix.viajar(200);
+
+        System.out.println(onix.toString());
 
     }
 
